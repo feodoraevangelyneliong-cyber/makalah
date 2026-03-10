@@ -1,0 +1,70 @@
+header.img{
+    height:100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(77, 53, 10);
+    padding: 5px 15px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: rgb(99, 65, 3);
+    transition: 0.5s;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("img2.png");
+    color: rgb(68, 47, 5);
+}
+.containerHome{
+    width: 40%;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+}
+.containerProject img{
+    width: 300px;
+}
+section.howto{
+    height: 300px;
+    text-align: center;
+    background-color: orange;
+    height: 300px;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+}
+.containerHome{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.judulHome{
+    font-size: 50px;
+}
+.deskripsiHome{
+    color: rgb(214, 124, 6);
+    font-size: 30px;
+}
