@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> Sikhye Labu Kuning dan Jahe Merah</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -14,19 +14,14 @@
                 <img src = "banner.png">
             </a>
             <nav>
-                <a href="#"><i class="fafa fa-coffee"> </i>home</a>
-                <a href="#"><i class="fa fa-file-powerpoint-o"> </i>project</a>
-                <a href="#"><i class="fa fa-pencil-square"> </i>howto</a>
-                <a href="#"><i class="fa fa-user-circle"> </i>profile</a>
+                <a href="#home"><i class="fafa fa-coffee"> </i>home</a>
+                <a href="#project"><i class="fa fa-file-powerpoint-o"> </i>project</a>
+                <a href="#howto"><i class="fa fa-pencil-square"> </i>how to</a>
+                <a href="#profile"><i class="fa fa-user-circle"> </i>profile</a>
             </nav>
-            <nav>
-                <a href="#containerHome">home</a>
-                <a href="#containerProject">project</a>
-                <a href="#containerHowTo">howto</a>
-                <a href="#containerProfile">profile</a>
-            </nav>
+            
         </header>
-        <section class="home">
+        <section class="home" id="home">
             <div class="containerHome">
                 <h1 class="judulHome">
                     Sikhye
@@ -37,8 +32,17 @@
         </section>
         <section class="#project" id="project">
             <div class="containerProject">
+                <style>
+                    .center {
+                        text-align: center;
+                    }
+                </style>
+
+                <div class="center">
                 <img src="img1.jpg">
-                <h3>About My Project</h3>
+                <h2 class="judulAboutMyProject">
+                    About My Project
+                </h2>
                 <p>
                     Pada penelitian ini penulis memilih untuk membuat sikhye dengan 2 jenis variabel yang<br> 
                     berbeda, yaitu dengan menggunakan labu kuning dan jahe merah. Penulis memilih untuk <br> 
@@ -48,19 +52,78 @@
                 </p>
             </div>
         </section>
-        <section class="#howto" id="howto"
+
+        <section class="#howto" id="howto">
             <div class="containerHowTo">
-                Sikhye adalah minuman tradisional yang berasal dari Korea yang terbuat dari nasi dan tepung ragi <br> 
-                melalui proses fermentasi. Cara membuat sikhye cukup sederhana, yaitu dengan mencampurkan air <br> 
-                tepung ragi dengan nasi putih yangb telah matang, lalu didiamkan di dalam rice cooker dengan <br> 
-                menjaga suhu hangat selama 10 jam, setelah itu campuran direbus selama 20-30 menit, lalu masukan <br> 
-                kedalam kulkas selama 2-3 hari. Sikhye pun siap disajikan!<br> 
+                <style>
+                    .center {
+                        text-align: center;
+                    }
+                </style>
+                <div class="center">
+                    <img src="img3.jpg">
+                    <h3>How To Make Sikhye Labu Kuning</h3>
+                <p>
+1. Rendam tepung ragi dalam air dingin sebanyak 2~3 liter sampai warna air menjadi putih seperti susu<br>
+2. Peras berkali-laki lalu disaring<br>
+3. Labu kuning dikupas lalu di potong menjadi 8 potongan kecil dan direbus. Kemudian dihancurkan dengan air yang dipakai waktu merebus labu dan disaring<br>
+4. Campurkan air yang diperoleh pada nomor 3 dengan air lagi yang diperoleh pada nomor 1 dan 2<br>
+5. Tanak nasi<br>
+6. Masukkan air ragi ke dalam nasi di rice cooker<br>
+7. Diamkan selam 10 jam hingga nasi terapung di atas air dengan mempertahankan suhu rice cooker sekitar 60 derajat<br>
+8. Pindahkan ke panci besar lalu masukkan gula pasir<br>
+9. Didihkan selama 20~30 menit di atas api kecil<br>
+10. Diamkan di kulkas selama 2-3 hari<br>
+11. Analisis karakteristik hasil fermentasi minuman sikhye kepada 10 responden<br>
+                </p>
             </div>
         </section>
-        <section class="#profile"
-            <div class="containerProfile">
-                instagram: feodora.evangelyne
+
+        <section class="#howto" id="howto">
+            <div class="containerHowTo">
+                <style>
+                    .center {
+                        text-align: center;
+                    }
+                </style>
+                <div class="center">
+                    <img src="img3.jpg">
+                    <h3>How To Make Sikhye Jahe Merah</h3>
+                <p>
+1. Rendam tepung ragi dalam air dingin sebanyak 2~3 liter sampai warna air menjadi putih seperti susu<br>
+2. Peras berkali-laki lalu disaring<br>
+3. Jahe merah dikupas lalu direbus. Kemudian diparut dan campurkan dengan air yang dipakai waktu merebus jahe dan disaring<br>
+4. Campurkan air yang diperoleh pada nomor 3 dengan air lagi yang diperoleh pada nomor 1 dan 2<br>
+5. Tanak nasi<br>
+6. Masukkan air ragi ke dalam nasi di rice cooker<br>
+7. Diamkan selama 10 jam hingga nasi terapung di atas air dengan mempertahankan suhu rice cooker sekitar 60 derajat<br>
+8. Pindahkan ke panci besar lalu masukkan gula pasir<br>
+9. Didihkan selama 20~30 menit di atas api kecil<br>
+10. Diamkan di kulkas selama 2-3 hari<br>
+11. Analisis karakteristik hasil fermentasi minuman sikhye kepada 10 responden<br>
+                </p>
             </div>
+        </section>
+
+        <section class="#profile" id="profile">
+            <style>
+                    .center {
+                        text-align: center;
+                    }
+                </style>
+                <div class="center">
+            <h2 class="judulProfile">Profile</h2>
+            <img src="angel.png" class="fotoprofile">
+            <p class="teksprofile">
+                Feodora Evangelyne Liong<br>
+                9D/7<br>
+                SMP SANTA ANGELA<br>
+            </p>
+            <div class="containerProfile">
+                <div class = "medsos">
+                    <a href="#https://www.instagram.com/feodora.evangelyne/"><span class="fa fa-instagram"></span>
+                </div>
+                </div>
         </section>
 
     </body>

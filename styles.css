@@ -45,16 +45,44 @@ section.project{
 }
 .containerProject img{
     width: 300px;
+    padding: 100px;
 }
 section.howto{
-    height: 300px;
+    height: 100px;
     text-align: center;
     background-color: orange;
-    height: 300px;
+    height: 100px;
+}
+.containerHowTo{
+    padding: 90px;
+}
+.containerHowTo img{
+    width: 300px;
+    padding: 100px;
 }
 section.profile{
     height: 800px;
     text-align: center;
+    color: rgb(250, 250, 150);
+}
+.fotoprofile{
+    width: 120px;
+    margin-top: 20px;
+}
+.containeroprofile img{
+    width: 100px;
+    padding: 100px;
+}
+.igLink{
+    font-size: 35px;
+    color: rgb(37, 130, 167);
+    text-decoration: none;
+}
+.igLink:hover{
+    color: black;
+}
+.judulprofile{
+    color: black;
 }
 .containerHome{
     width: 40%;
