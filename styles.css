@@ -228,3 +228,12 @@ section.profile{
     position: relative;
     z-index: 1;
 }
+.fa-instagram {
+    color: red !important;
+}
+.fa-tumblr-square {
+    color: #e9c70b;
+}
+.fa-snapchat {
+    color: #eba207;
+}
