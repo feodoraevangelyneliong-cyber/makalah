@@ -38,6 +38,7 @@ nav{
     align-items: center;
     margin-top: 10px;
     position: absolute;
+    padding-right: 50px;
 }
 nav a{
     position: sticky;
